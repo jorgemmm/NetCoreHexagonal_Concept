@@ -6,7 +6,7 @@ namespace AppVenta.Dominio
 {
     public class Sale
     {
-        public Guid ventaId { get; set; }
+        public Guid saleId { get; set; }
 
         public long saleNumber { get; set; } //code
 
@@ -20,7 +20,7 @@ namespace AppVenta.Dominio
 
         public decimal total { get; set; }
 
-        public List<SaleDetail> saleDetails { get; set; }
+        public List<SaleDetail> SaleDetails { get; set; }
 
     }
 }

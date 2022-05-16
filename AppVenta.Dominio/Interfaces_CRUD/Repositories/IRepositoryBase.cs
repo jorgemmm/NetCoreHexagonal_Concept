@@ -4,9 +4,9 @@ using System.Text;
 
 using AppVenta.Dominio.Interfaces_CRUD;
 
-namespace AppVenta.Dominio.Interfaces_CRUD.Repositorios
+namespace AppVenta.Dominio.Interfaces_CRUD.Repositories
 {
-    public interface IRepositorioBase<TEntidad, TEntidadID>
+    public interface IRepositoryBase<TEntidad, TEntidadID>
         : IAdd<TEntidad>, IGet<TEntidad, TEntidadID>, IEdit<TEntidad>, IDelete<TEntidadID>, ITransaction
     {
 

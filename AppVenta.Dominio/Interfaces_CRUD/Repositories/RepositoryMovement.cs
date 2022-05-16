@@ -7,7 +7,7 @@ using AppVenta.Dominio.Interfaces_CRUD;
 
 namespace AppVenta.Dominio.Interfaces_CRUD.Repositories
 {
-    public interface RepositoryMovement<TEntidad, TEntidadID>
+    public interface IRepositoryMovement<TEntidad, TEntidadID>
     : IAdd<TEntidad>, IGet<TEntidad, TEntidadID>, ITransaction
     {
         void Anular(TEntidadID entidadId);

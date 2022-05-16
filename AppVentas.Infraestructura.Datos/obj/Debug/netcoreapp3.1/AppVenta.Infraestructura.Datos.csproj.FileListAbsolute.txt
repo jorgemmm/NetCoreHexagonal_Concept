@@ -1,0 +1,5 @@
+C:\Users\Jordi\Documents\Visual Studio 2019\NetCore\AppVentas.Infraestructura.Datos\obj\Debug\netcoreapp3.1\AppVenta.Infraestructura.Datos.csproj.AssemblyReference.cache
+C:\Users\Jordi\Documents\Visual Studio 2019\NetCore\AppVentas.Infraestructura.Datos\obj\Debug\netcoreapp3.1\AppVenta.Infraestructura.Datos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jordi\Documents\Visual Studio 2019\NetCore\AppVentas.Infraestructura.Datos\obj\Debug\netcoreapp3.1\AppVenta.Infraestructura.Datos.AssemblyInfoInputs.cache
+C:\Users\Jordi\Documents\Visual Studio 2019\NetCore\AppVentas.Infraestructura.Datos\obj\Debug\netcoreapp3.1\AppVenta.Infraestructura.Datos.AssemblyInfo.cs
+C:\Users\Jordi\Documents\Visual Studio 2019\NetCore\AppVentas.Infraestructura.Datos\obj\Debug\netcoreapp3.1\AppVenta.Infraestructura.Datos.csproj.CoreCompileInputs.cache

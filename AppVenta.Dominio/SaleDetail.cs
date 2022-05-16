@@ -7,7 +7,7 @@ namespace AppVenta.Dominio
     public class SaleDetail
     {
         public Guid productId { get; set; }
-        public Guid ventaId { get; set; }
+        public Guid SaleId { get; set; }
 
         public decimal unitCost { get; set; }
 

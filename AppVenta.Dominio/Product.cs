@@ -18,6 +18,6 @@ namespace AppVenta.Dominio
 
         public decimal amountInStock { get; set; }
 
-        public List<SaleDetail> saleDetails { get; set; }
+        public List<SaleDetail> SaleDetails { get; set; }
     }
 }
