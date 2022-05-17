@@ -5,11 +5,12 @@ using System.Text;
 
 using AppVenta.Dominio.Interfaces_CRUD;
 
-namespace App.Venta.Aplicacion.Interfaces
+namespace AppVenta.Aplicacion.Interfaces
 {
     public interface IMovementService<TEntidad, TEntidadID>
     : IAdd<TEntidad>, IGet<TEntidad, TEntidadID>
     {
-        void Anular(TEntidadID entidadId);
+        //Cancel 
+        void Refound(TEntidadID entidadId);
     }
 }

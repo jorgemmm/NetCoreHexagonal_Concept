@@ -4,6 +4,7 @@ using System.Text;
 
 namespace AppVenta.Dominio
 {
+    //id identificador único
     public class Sale
     {
         public Guid saleId { get; set; }
@@ -19,6 +20,8 @@ namespace AppVenta.Dominio
         public decimal tax { get; set; }
 
         public decimal total { get; set; }
+
+        public Boolean isRefounded { get; set; }
 
         public List<SaleDetail> SaleDetails { get; set; }
 

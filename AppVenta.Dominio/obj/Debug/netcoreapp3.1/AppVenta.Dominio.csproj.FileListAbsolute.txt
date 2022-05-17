@@ -11,3 +11,4 @@ C:\Users\Jordi\Documents\Visual Studio 2019\NetCore\AppVenta.Dominio\obj\Debug\n
 C:\Users\Jordi\Documents\Visual Studio 2019\NetCore\AppVenta.Dominio\obj\Debug\netcoreapp3.1\AppVenta.Dominio.dll
 C:\Users\Jordi\Documents\Visual Studio 2019\NetCore\AppVenta.Dominio\obj\Debug\netcoreapp3.1\AppVenta.Dominio.pdb
 C:\Users\Jordi\Documents\Visual Studio 2019\NetCore\AppVenta.Dominio\obj\Debug\netcoreapp3.1\AppVenta.Dominio.genruntimeconfig.cache
+C:\Users\Jordi\Documents\Visual Studio 2019\NetCore\AppVenta.Dominio\obj\Debug\netcoreapp3.1\AppVenta.Dominio.csproj.AssemblyReference.cache

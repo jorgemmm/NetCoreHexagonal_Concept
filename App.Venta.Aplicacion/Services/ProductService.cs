@@ -4,10 +4,13 @@ using System.Text;
 
 using AppVenta.Dominio;
 using AppVenta.Dominio.Interfaces_CRUD.Repositories;
-using App.Venta.Aplicacion.Interfaces;
+using AppVenta.Aplicacion.Interfaces;
 //using AppVenta.Dominio.Interfaces_CRUD.Repositorios;
 
-namespace App.Venta.Aplicacion.Services
+
+//Maybe this service in domain Layer?
+
+namespace AppVenta.Aplicacion.Services
 {
     //Lógica independiente de la tecnología 
     public class ProductService : IServicioBase<Product, Guid>

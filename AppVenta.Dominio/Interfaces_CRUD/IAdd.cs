@@ -6,7 +6,7 @@ namespace AppVenta.Dominio.Interfaces_CRUD
 {
     public interface IAdd<TEntidad>    {
 
-        TEntidad Add(TEntidad entidad);      
+        TEntidad Add(TEntidad entity);      
 
     }
 }

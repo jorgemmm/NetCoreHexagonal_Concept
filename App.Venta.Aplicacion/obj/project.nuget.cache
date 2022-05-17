@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FWGy2mlDvr2iRWVfFRXFq95UD02vRbGubn3V1K9CD+fIp6+zreFGgSzl5OmE0xl4VX/iJpEC7KdAr3GNVJEcoA==",
+  "dgSpecHash": "AGuccjNYbIyq6rwAb50YvHRV40vKBe/x8KVmhf/9NSGHx5AK1aePkQ74CrlcWRgiroH9Q8r6KKM/HsoA5vFF0A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jordi\\Documents\\Visual Studio 2019\\NetCore\\App.Venta.Aplicacion\\App.Venta.Aplicacion.csproj",
+  "projectFilePath": "C:\\Users\\Jordi\\Documents\\Visual Studio 2019\\NetCore\\App.Venta.Aplicacion\\AppVenta.Aplicacion.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 
+
 namespace AppVentas.Infraestructura.Datos.Configs
 {
     public class SaleDetailConfig : IEntityTypeConfiguration<SaleDetail>
@@ -15,7 +16,7 @@ namespace AppVentas.Infraestructura.Datos.Configs
         public void Configure(EntityTypeBuilder<SaleDetail> builder)
         {
             builder.ToTable("SaleDetailTable");
-            builder.HasKey(key => new { key.productId, key.SaleId });
+            builder.HasKey(key => new { key.productId, key.saleId });
 
             builder
                 .HasOne(detail => detail.Sale)

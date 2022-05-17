@@ -33,9 +33,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jordi\\Documents\\Visual Studio 2019\\NetCore\\App.Venta.Aplicacion\\App.Venta.Aplicacion.csproj",
-      "projectName": "App.Venta.Aplicacion",
-      "projectPath": "C:\\Users\\Jordi\\Documents\\Visual Studio 2019\\NetCore\\App.Venta.Aplicacion\\App.Venta.Aplicacion.csproj",
+      "projectUniqueName": "C:\\Users\\Jordi\\Documents\\Visual Studio 2019\\NetCore\\App.Venta.Aplicacion\\AppVenta.Aplicacion.csproj",
+      "projectName": "AppVenta.Aplicacion",
+      "projectPath": "C:\\Users\\Jordi\\Documents\\Visual Studio 2019\\NetCore\\App.Venta.Aplicacion\\AppVenta.Aplicacion.csproj",
       "packagesPath": "C:\\Users\\Jordi\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Jordi\\Documents\\Visual Studio 2019\\NetCore\\App.Venta.Aplicacion\\obj\\",
       "projectStyle": "PackageReference",

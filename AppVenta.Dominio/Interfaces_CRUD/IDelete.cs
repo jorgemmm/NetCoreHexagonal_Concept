@@ -7,7 +7,7 @@ namespace AppVenta.Dominio.Interfaces_CRUD
    
     public interface IDelete<TEntidad>
     {
-        void Delete(TEntidad entidad);
+        void Delete(TEntidad entityId);
 
     }
 }

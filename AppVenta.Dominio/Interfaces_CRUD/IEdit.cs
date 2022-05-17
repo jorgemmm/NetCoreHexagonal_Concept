@@ -7,7 +7,7 @@ namespace AppVenta.Dominio.Interfaces_CRUD
    
     public interface IEdit<TEntidad>
     {
-        void Edit(TEntidad entidad);
+        void Edit(TEntidad entity);
 
     }
 }

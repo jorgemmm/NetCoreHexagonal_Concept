@@ -4,10 +4,10 @@ using System.Text;
 
 using AppVenta.Dominio;
 using AppVenta.Dominio.Interfaces_CRUD.Repositories;
-using App.Venta.Aplicacion.Interfaces;
-//using AppVenta.Dominio.Interfaces_CRUD.Repositorios;
+using AppVenta.Aplicacion.Interfaces;
 
-namespace App.Venta.Aplicacion.Services
+
+namespace AppVenta.Aplicacion.Services
 {
     
     
@@ -39,14 +39,14 @@ namespace App.Venta.Aplicacion.Services
 
             var SaleAdded = repoSale.Add(entity);
 
-            entity.saleDetails.ForEach(detail =>
+            entity.SaleDetails.ForEach(detail =>
            {
                var selectedProduct = repoProduct.GetbyId(detail.productId);
                if (selectedProduct == null)               
                    throw new NotImplementedException(" You can´t sale it; this product does no exit ");
 
                var newDetail = new SaleDetail();
-               newDetail.ventaId = SaleAdded.ventaId;
+               newDetail.saleId = SaleAdded.saleId;
                newDetail.productId = detail.productId;
                newDetail.unitCost = selectedProduct.cost;
                newDetail.unitPrice = selectedProduct.price;
@@ -73,10 +73,10 @@ namespace App.Venta.Aplicacion.Services
             return entity;
         }
 
-        public void Anular(Guid entityId)
+        public void Refound(Guid entityId)
         {
             //throw new NotImplementedException();
-            repoSale.Anular(entityId);
+            repoSale.Refound(entityId);
             repoSale.SaveAllChanges();
         }
 

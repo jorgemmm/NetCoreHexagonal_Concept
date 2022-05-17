@@ -1,5 +1,6 @@
 ﻿using System;
 
+//id identificador único
 namespace AppVenta.Dominio
 {
     class Program

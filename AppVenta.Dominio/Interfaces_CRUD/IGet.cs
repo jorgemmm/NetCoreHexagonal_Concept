@@ -12,7 +12,7 @@ namespace AppVenta.Dominio.Interfaces_CRUD
     {
         List<TEntidad> Get(); //List de entidades
 
-        TEntidad GetbyId(TEntidadID entidadId);
+        TEntidad GetbyId(TEntidadID entityId);
 
     }
 }

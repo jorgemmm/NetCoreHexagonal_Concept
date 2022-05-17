@@ -4,10 +4,11 @@ using System.Text;
 
 namespace AppVenta.Dominio
 {
+    //id identificador único
     public class SaleDetail
     {
         public Guid productId { get; set; }
-        public Guid SaleId { get; set; }
+        public Guid saleId { get; set; }
 
         public decimal unitCost { get; set; }
 

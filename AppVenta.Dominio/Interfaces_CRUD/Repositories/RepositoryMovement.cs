@@ -10,6 +10,7 @@ namespace AppVenta.Dominio.Interfaces_CRUD.Repositories
     public interface IRepositoryMovement<TEntidad, TEntidadID>
     : IAdd<TEntidad>, IGet<TEntidad, TEntidadID>, ITransaction
     {
-        void Anular(TEntidadID entidadId);
+        //Cancel 
+        void Refound(TEntidadID entidadId);
     }
 }

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
+//id identificador único
 namespace AppVenta.Dominio
 {
     public class Product
