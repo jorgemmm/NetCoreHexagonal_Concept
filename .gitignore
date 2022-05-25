@@ -1,11 +1,11 @@
 Saved
-.vscode
+#.vscode
 .vs
 *.VC.db
 *.opensdf
 *.opendb
 *.sdf
 *.sln
-*.suo
+#*.suo
 *.xcodeproj
-*.xcworkspace
+#*.xcworkspace
