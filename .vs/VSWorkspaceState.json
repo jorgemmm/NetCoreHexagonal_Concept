@@ -1,11 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\App.Venta.Aplicacion",
-    "\\AppVenta.Dominio",
     "\\AppVentas.Infraestructura.Datos",
     "\\AppVentas.Infraestructura.Datos\\Contextos"
   ],
-  "SelectedNode": "\\AppVentas.Infraestructura.Datos\\AppVentas.Infraestructura.Datos.csproj",
+  "SelectedNode": "\\AppVentas.Infraestructura.Datos\\Contextos\\SaleContext.cs",
   "PreviewInSolutionExplorer": false
 }
