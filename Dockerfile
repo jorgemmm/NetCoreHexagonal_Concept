@@ -24,4 +24,4 @@ COPY --from=burning  /app/build  ./
 
 EXPOSE 80
 
-ENTRYPOINT [ "dotnet" ,"AppVenta.Infraestructura.API.dll" ]
+ENTRYPOINT [ "dotnet" ,"AppVentas.Infraestructura.API.dll" ]
